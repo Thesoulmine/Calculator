@@ -133,7 +133,6 @@ public class Main {
         } else if (status.a > 0 && status.b > 0) {
             return (calculateArabic(param));
         }
-        System.out.println(calculateRoman(param));
         return input;
     }
 }
