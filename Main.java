@@ -120,6 +120,7 @@ public class Main {
         }
         return (flag);
     }
+    
     public static String calc(String input) {
         Param param = parser(input);
         Status status = new Status();
@@ -136,6 +137,7 @@ public class Main {
         }
         return input;
     }
+    
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println(calc(scan.nextLine()));
